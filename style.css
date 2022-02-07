@@ -1,0 +1,275 @@
+html{
+    margin-left:-10px;
+    width:100%;
+  height:100%;
+   font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+main{
+  background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url("https://assets.nflxext.com/ffe/siteui/vlv3/9c5457b8-9ab0-4a04-9fc1-e608d5670f1a/710d74e0-7158-408e-8d9b-23c219dee5df/IN-en-20210719-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-color:black;
+  opacity:0.9;
+  height:700px;
+  border-bottom: 8px solid #222;
+}
+#content1 input{
+  height:60px;
+}
+nav{
+  margin-top:-25px;
+}
+#netflix{
+  margin-left:45px;
+}
+nav img{
+  height:100px;
+    width:170px;
+}
+#top{
+  display:flex;
+ justify-content:space-between;
+ align-items:center;
+}
+
+nav select{
+  height:40px;
+  width:80px;
+  margin-right:20px;
+  background-color:black;
+  color:white;
+  font-size:15px;
+  border-color:#AAAAAA;
+  border-radius:3px;    
+}
+
+
+nav button{
+    height:40px;
+  width:80px;
+  margin-right:45px;
+  background-color:#E50815;
+  color:white;
+  font-size:15px;
+    border-radius:3px;
+  border:none;
+}
+#content{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+#content h1{
+      font-size: 3.125rem;
+  color:white;
+  font-weight:25px;
+  text-align:center;
+  margin-bottom:7px;
+}
+
+#content h2{
+  color:white;
+   font-size: 1.625rem
+  font-weight:25px;
+   margin-top:2px;
+}
+#content h3{
+      font-size: 18px;
+   color:white;
+  margin-top:0px;
+  font-weight:25px;
+}
+
+
+#content1{
+  justify-content:center;
+}
+
+#input{
+  background-color:white;
+  height:35px;
+  width:385px;
+  padding: 10px;
+}
+
+#para{
+  display:flex;
+  justify-content:center;}
+#error{
+color:#F89B09;
+  margin-left:350px;
+  margin-top:-5px;
+}
+#second,.third,.fourth,.fifth,.sixth{
+  background-color:#000000;
+  height:450px;
+  color:white;
+  display:flex;
+   align-items:center;
+  justify-content:center;
+  border-bottom: 8px solid #222;
+  padding:20px;
+  gap:50px;
+}
+h1{
+  font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+}
+#im{
+  height:auto;
+}
+h2{
+  font-size: 1.625rem;
+  font-weight: 330;
+}
+.animation{
+  display:flex;
+  flex-direction:column;
+}
+#img1{
+ 
+  height:auto;
+}
+.box{
+   position:relative;
+}
+.container{
+  position:relative;
+}
+.Container1{
+  position:relative;
+}
+.animation{
+  margin:0px;
+}
+.on{
+  position: absolute;
+    right: 16%;
+    bottom: 24%; 
+}
+.problem{
+    opacity:5;
+}
+.help{
+  position: absolute;
+    right: 23%;
+    bottom: 30%;   
+}
+ .animation{
+ position: absolute;
+    left: 50%;
+    bottom: 8%; 
+  width:60%;
+   height:18%;
+  transform: translateX(-50%);
+  background: #000;
+  border: 2px solid rgba(255,255,255,.25); 
+   border-radius: .75em;
+   box-shadow: 0 0 2em 0 #000;
+}
+.animation img{
+  height:65px;
+  width:54px;
+  margin:5px;
+}
+.row{
+      padding-top: 0.25em;
+    padding-right: 0.65em;
+    padding-bottom: 0.25em;
+    padding-left: 0.65em;
+}
+.text1{
+  font-size:1em;
+  font-weight:600;
+  padding:0px;
+  margin-bottom:-10px;
+}
+.text2{
+  color:#0171EB;
+  margin-top:-12px;
+  padding:0px;
+ 
+}
+.animation .row{
+   display:flex;
+
+}
+.text{
+  margin-left:10px;
+ align-content:center; 
+}
+.icon{
+  margin-left:90px;
+}
+.icon img{
+ width: 4em;
+    height: 4em;
+    outline: 2px solid #000;
+    outline-offset: -2px;
+ 
+}
+
+.endDiv{
+  background-color:#000000;
+  height:300px;
+  color:white;
+  display:flex;
+ justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  padding:30px;
+}
+.ulitem{
+  display:flex;
+justify-content:center;
+  height:300px;
+  width:100%;
+}
+.questions{
+  display:flex;
+  margin-right:570px;
+  
+  align-items:center;
+}
+.endDiv p{
+  text-decoration:none;
+  color:#757575;
+}
+.endDiv a:hover{
+  text-decoration:underline;
+}
+.ulitem div ul li{
+   text-decoration:none;
+  list-style-type:none;
+  color:#757575;
+  font-size: 15px;
+      margin-bottom: 16px;
+}
+.ulitem div ul a{
+   text-decoration:none;
+  color:#757575;
+  font-size: 15px;
+}
+.questions a{
+     text-decoration:none;
+  color:#757575;
+  font-size: 15px;
+  margin-left:5px;
+}
+.ulitem div{
+      margin-right: 65px;
+  
+}
+.endd select{
+   background-color: #000;
+    background-image: none;
+    border: 1px solid #333;
+    color: #999;
+    font-size: 16px;
+    width:135px;
+  height:55px;
+  border-radius: 2px;
+}
+.endd{
+  margin-right: 690px;
+}
